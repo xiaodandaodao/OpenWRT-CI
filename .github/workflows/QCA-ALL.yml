@@ -32,7 +32,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        TARGET: [ IPQ807X-WIFI-YES, IPQ807X-WIFI-NO]
+        TARGET: [IPQ807X-WIFI-NO]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
